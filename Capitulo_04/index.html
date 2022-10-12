@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Usar unidades específicas de grid para alterar o tamanho de colunas e linhas</title>
+</head>
+
+<body>
+  <h1>Usar unidades específicas de grid para alterar o tamanho de colunas e linhas</h1>
+
+  <p>Você pode usar unidades absolutas e relativas como <code>px</code> e <code>em</code> no CSS Grid para definir o tamanho das linhas e colunas. Você também pode usar estas:</p>
+
+  <p><code>fr</code>: define a coluna ou linha para uma fração do espaço disponível,</p>
+
+  <p><code>auto</code>: define a coluna ou linha para a largura ou altura de seu conteúdo automaticamente,</p>
+
+  <p><code>%</code>: ajusta a coluna ou linha para a largura percentual de seu contêiner.</p>
+
+  <p>Este é o código que gera o resultado na visualização a seguir:</p>
+
+  <pre>
+    grid-template-columns: auto 50px 10% 2fr 1fr;
+  </pre>
+
+  <p>Este código cria cinco colunas. A primeira coluna tem a largura de seu conteúdo, a segunda coluna tem 50px, a terceira coluna tem 10% de seu contêiner e nas duas últimas colunas o espaço restante é dividido em três seções, duas são alocadas para a quarta coluna e uma para a quinta.</p>
+
+  <p>Faça um grid com três colunas cujas larguras possuam as seguintes medidas, respectivamente: 1fr, 100px e 2fr.</p>
+</body>
+
+</html>
