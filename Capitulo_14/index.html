@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Dividir o grid em áreas</title>
+</head>
+
+<body>
+  <h1>Dividir o grid em áreas</h1>
+
+  <p>Você pode agrupar as células do grid em uma área e dar a esta um nome personalizado. Faça isso usando a propriedade <code>grid-template-areas</code> no grid container:</p>
+
+  <pre>
+    grid-template-areas:
+    "header header header"
+    "advert content content"
+    "advert footer footer";
+  </pre>
+
+  <p>O código acima agrupa as células da grade em quatro áreas: <code>header</code>, <code>advert</code>, <code>content</code> e <code>footer</code>. Cada palavra representa uma célula e cada par de citações representa uma linha.</p>
+
+  <p>Altere o modelo para que a área de <code>footer</code> abranja toda a linha inferior. Definir as áreas não terá nenhum efeito visual agora. Mais tarde, você fará com que um item use uma área para ver como funciona.</p>
+</body>
+
+</html>
