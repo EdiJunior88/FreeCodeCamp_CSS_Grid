@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Usar grid-column para controlar a posição das colunas</title>
+</head>
+
+<body>
+  <h1>Usar grid-column para controlar a posição das colunas</h1>
+
+  <p>Até este ponto, todas as propriedades que foram discutidas são destinadas para o grid container. A propriedade <code>grid-column</code> é usada nos grid items.</p>
+
+  <p>As linhas horizontais e verticais que criam o grid são chamadas de <i>linhas</i> (lines). Essas linhas são numeradas começando com 1 no canto superior esquerdo do grid e movem para a direita para colunas e para baixo para linhas.</p>
+
+  <p>Esta é a aparência das linhas em um grid 3x3:</p>
+
+  <img src="../Capitulo_08/img01.png">
+
+  <p>Para controlar a quantidade de colunas que um item ocupará, você pode usar a propriedade <code>grid-column</code> definindo o número da linha em que deseja que o item comece e pare.</p>
+
+  <p>Exemplo:</p>
+
+  <pre>
+    grid-column: 1 / 3;
+  </pre>
+
+  <p>Isso fará com que o item comece na primeira linha vertical o grid à esquerda e se estenda até a 3ª linha do grid, ocupando duas colunas.</p>
+
+  <p>Faça com que o item com a classe <code>item5</code> ocupe as duas últimas colunas do grid.</p>
+</body>
+
+</html>
