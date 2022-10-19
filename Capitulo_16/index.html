@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Usar grid-area sem criar um modelo de áreas</title>
+</head>
+
+<body>
+  <h1>Usar grid-area sem criar um modelo de áreas</h1>
+
+  <p>A propriedade <code>grid-area</code> que você aprendeu no último desafio pode ser usada de outra maneira. Se o seu grid não possuir um modelo de áreas para fazer referência, você pode rapidamente definir uma área para um item assim:</p>
+
+  <pre>
+    item1 { grid-area: 1/1/2/4; }
+  </pre>
+
+  <p>Esta abordagem usa os números de linha que você aprendeu anteriormente para definir onde ficará a área deste item. Os números no exemplo acima podem ser lidos assim:</p>
+
+  <pre>
+    grid-area: horizontal line to start at / vertical line to start at / horizontal line to end at / vertical line to end at;
+  </pre>
+
+  <p>Portanto, o item no exemplo permanecerá entre as linhas 1 e 2 e entre as colunas 1 e 4.</p>
+
+  <p>Usando a propriedade <code>grid-area</code>, coloque o elemento com a classe <code>item5</code> entre a terceira e a quarta linha e entre a primeira e a quarta coluna.</p>
+</body>
+
+</html>
