@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Limitar o tamanho do item usando a função minmax</title>
+</head>
+
+<body>
+  <h1>Limitar o tamanho do item usando a função minmax</h1>
+
+  <p>Existe uma outra função que pode ser usada com as propriedades <code>grid-template-columns</code> e <code>grid-template-rows</code> chamada minmax. Ela é usada para limitar o tamanho dos grid items quando o grid container muda de tamanho. Para fazer isso, você precisa especificar um limite de tamanho aceitável para o seu grid item. Exemplo:</p>
+
+  <pre>
+    grid-template-columns: 100px minmax(50px, 200px);
+  </pre>
+
+  <p>No código acima, <code>grid-template-columns</code> é definido para criar duas colunas; a primeira tem 100px de largura e a segunda tem a largura mínima de 50px e a largura máxima de 200px.</p>
+
+  <p>Usando a função <code>minmax</code>, substitua <code>1fr</code> na função repeat por um tamanho de coluna que tenha a largura mínima de <code>90px</code> e a largura máxima de <code>1fr</code>, e redimensione a janela do navegador para ver o efeito.</p>
+</body>
+
+</html>
