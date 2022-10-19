@@ -37,10 +37,12 @@
 <h3>Tempo Estudando o Curso</h3>
 
 <p>
-  <img src="https://wakatime.com/badge/github/EdiJunior88/FreeCodeCamp_CSS_Grid.svg">
+  <a href="https://wakatime.com/badge/github/EdiJunior88/FreeCodeCamp_CSS_Grid">
+    <img src="https://wakatime.com/badge/github/EdiJunior88/FreeCodeCamp_CSS_Grid.svg" alt="wakatime">
+  </a>
 </p>
 
 <hr>
 
 <h4><b>Curso:</b> :green_book: :books: 22 capítulos</h4>
-<h4><b>Status do Curso:</b> :speech_balloon: Estudando</h4>
+<h4><b>Status do Curso:</b> ✅ Concluído</h4>
